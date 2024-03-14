@@ -7,6 +7,12 @@
     color: #E7BA29;
 }
 
+/* Utility */
+.tombol {
+    border-radius: 40px;
+    text-transform: initial;
+}
+
 /* Jumbotron */
 .jumbotron {
     background: url(../img/jumbotron.png);
@@ -86,6 +92,7 @@
 .deskripsi {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 16px;
 }
 
 .containercard{
@@ -93,16 +100,83 @@
     justify-content: space-evenly;
 }
 
-
-/* Utility */
-.tombol {
-    border-radius: 40px;
-    text-transform: initial;
+.card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
 }
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+/* card 2 */
+.containertotal{
+    background-color: #b59529;
+    padding: 50px;
+    margin-top: 60px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+.judulcard2{
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containercard2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.containercard2 .row {
+    display: flex;
+    justify-content: center;
+}
+
+.card2 {
+    margin: 0 auto;
+    text-align: center; 
+    background-color: #b59529; 
+}
+
+.card2 img {
+    margin: 0 auto;
+    filter: invert(100%);
+}
+
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffff21;
+    text-transform: uppercase;
+
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+
+
 
 /* footer */
 .footer{
-    padding: 80px;
+    padding: 30px;
     margin-top: 40px;
     color: white;
     background-color: #b59529;
